@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5551282F-B293-4278-98DB-A3A53727D34F}</ProjectGuid>
     <RootNamespace>HW01_STDQueue</RootNamespace>
-    <ProjectName>HW01_STDQueue</ProjectName>
+    <ProjectName>HW01_PriorityQueue</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -95,11 +95,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Alberto.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Alberto.h" />
     <ClInclude Include="Main.h" />
   </ItemGroup>
   <ItemGroup>
